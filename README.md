@@ -1,14 +1,17 @@
-# 첫번째 프로젝트 : README.md를 위한 마크업 정리
-## Usage of MARKDOWN 
+# 첫번째 프로젝트
+### README.md 작성을 위한 마크다운 사용법 정리
+└ 마크다운 결과 → 문법(사용법) 순서로 정리됨
 
 |No|Items|Description|
-|--|--|--|
-| 1 | 글자크기 Heading | 6단계   |
-| 2 | 강조 |  |
-| 3 |  |  |
-| 4 |  |  |
+|:--:|--|:--:|
+| 1 | 글자크기(제목 : Header) | 6단계   |
+| 2 | 문자강조(Emphasis) |  |
+| 3 | 목록표현 |  |
+| 4 | 링크 |  |
+| 5 | 이미지넣기 |  |
+| 6 | 코드블럭 |  |
 
-# Ⅰ. 제목(Header)
+# Ⅰ. 글자크기(제목 : Header)
 > # 제목 1: # 제목 1
 >> ## 제목 2:  ## 제목 2
 >>> ### 제목 3: ### 제목 3
@@ -16,10 +19,11 @@
 >>>>> ##### 제목 5: ##### 제목 5
 >>>>>> ###### 제목 6: ###### 제목 6
 
-# Ⅱ. 강조(Emphasis)
+# Ⅱ. 문자강조(Emphasis)
 ### 1. 이텔릭
   1) *이텔렉체* : * 한개 별표(asterisks) *
   2) _이텔릭체_ : _ 한개 언더바(underscore) _
+  3) <em>이텔릭체</em> : < em> em < /em>
 ### 2. 두껍게 
   1) <strong>두껍게</strong> : < strong> 두껍게 < /strong>
   2) <b>두껍게</b> : < b> 두껍게 < /b>
@@ -39,7 +43,7 @@
   1) <p>단락구분: < p> 단락구분 < /p> </p> 
   2) _<em>이건또</em>_
 
-# Ⅲ. 목록
+# Ⅲ. 목록표현
 ### 1) 순서없는 목록 < ul>< li>< /li>< /ul>
   <ul>
     <li>첫번째</li>
@@ -69,18 +73,42 @@
   <li>세번째</li>
 </ol>
 ```
-# 4. 링크
+
+### 3) 기호를 이용한 목록 (*,+,-)
+* 1단계
+  - 2단계
+    + 3단계
+      + 4단계
+```
+* 1단계
+  - 2단계
+    + 3단계
+      + 4단계
+```
+
+
+
+# Ⅳ. 링크
 ### 1) 링크연결
-<em>마크다운 설명이 잘 정리된 git은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</em>
+마크다운 설명이 잘 정리된 git은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.
 
 ```
-<em>마크다운 설명이 잘 정리된 git은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</em>
+마크다운 설명이 잘 정리된 git은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.
 ```
-# 5. 코드블럭
+# Ⅴ. 이미지 넣기
+<img src="https://github.com/japhethbrown/1st/assets/144292488/b2d6d9f8-c826-4210-809a-99feda561482" width="150px" title="px(픽셀) 크기 설정" alt="git logo"></img>
+
+```
+<img src="https://github.com/japhethbrown/1st/assets/144292488/b2d6d9f8-c826-4210-809a-99feda561482" width="150px" title="px(픽셀) 크기 설정" alt="git logo"></img>
+```
+
+# Ⅵ. 코드블럭
 ### 1). 코드블럭
 ```
 #a. 코드블럭 : ``` 코드블럭 ```
 ```
-
 <pre><code>#b. 코드블럭: < pre>< code> 코드블럭 2 < /code>< /pre> </code></pre>
+### 2) 블럭인용
+> 블럭인용 1단계 ( >)
+>> 블럭인용 2단계 ( >>)
 
