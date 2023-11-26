@@ -71,10 +71,10 @@
 ```
 # 4. 링크
 ### 1) 링크연결
-<p>마크다운 wikipedia 설명은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</p>
+<em>마크다운 설명이 잘 정리된 git은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</em>
 
 ```
-<p>마크다운 wikipedia 설명은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</p>
+<em>마크다운 설명이 잘 정리된 git은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</em>
 ```
 # 5. 코드블럭
 ### 1). 코드블럭
