@@ -75,11 +75,10 @@
 ```
 <p>마크다운 wikipedia 설명은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</p>
 ```
+### 11. 코드블럭
+```
+#1. 코드블럭 : ``` 코드블럭 ```
+```
 
-<span style="color:red">빨간 글씨</span>
-<span style="color:blue">파란 글씨</span>
-<span style="color:green">초록 글씨</span>
-<span style="color:yellow">노란 글씨</span>
-<span style="color:purple">보라 글씨</span>
-
+<pre><code>#2. 코드블럭: < pre>< code> 코드블럭 2 < /code>< /pre> </code></pre>
 
