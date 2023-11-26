@@ -39,19 +39,42 @@
 ### 7.단락구분 (아래위 여백이 커짐 다름)
   1) <p>단락구분: < p> 단락구분 < /p> </p> 
   2) _<em>이건또</em>_
-### 8. 목록 < ul>< li>< /li>< /ul>
+### 8. 순서없는 목록 < ul>< li>< /li>< /ul>
   <ul>
     <li>첫번째</li>
     <li>두번째</li>
     <li>세번째</li>
   </ul>
-### 9. 목록 < ol>< li></li> li>< /ol>
+
+```
+<ul>
+  <li>첫번째</li>
+  <li>두번째</li>
+  <li>세번째</li>
+</ul>
+```
+  
+### 9. 순서있는 목록 < ol>< li></li> li>< /ol>
   <ol>
     <li>첫번째</li>
     <li>두번째</li>
     <li>세번째</li>
   </ol>
+  
+```
+<ol>
+  <li>첫번째</li>
+  <li>두번째</li>
+  <li>세번째</li>
+</ol>
+```
 
+### 10. 링크연결
+<p>마크다운 wikipedia 설명은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</p>
+
+```
+<p>마크다운 wikipedia 설명은 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" title="gist.github.com">여기</a>를 참조.</p>
+```
 
 <span style="color:red">빨간 글씨</span>
 <span style="color:blue">파란 글씨</span>
