@@ -3,7 +3,7 @@
 └ 마크다운 결과 → 문법(사용법) 순서로 정리됨
 
 |No|Items|Description|
-|:--:|--|:--:|
+|:--:|--|:--|
 | 1 | 글자크기(제목 : Header) | 6단계 |
 | 2 | 문자강조(Emphasis) | 6건(이텔릭체, 두껍게,두꺼운 이텔릭체, 취소선,단락구분, 줄바꾸기 |
 | 3 | 목록표현 | 2건(순서없는 목록, 순서있는 목록, 기호를 이용한 목록 |
@@ -113,6 +113,10 @@
 ```
 <pre><code>#2) 코드블럭: < pre>< code> 코드블럭 2 < /code>< /pre> </code></pre>
 
+#### 2 블럭인용
+> 블럭인용 1단계 ( >)
+>> 블럭인용 2단계 ( >>)
+
 # Ⅶ. 마크다운 Emoji 이모티콘
 출처 : <a href="https://inpa.tistory.com/entry/MarkDown-%F0%9F%93%9A-Emoji-%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" title="Inpa Dev"> Inpa Dev </a>
 
@@ -126,7 +130,5 @@
 |😍|: heart_eyes:|😘|: kissing_heart:|😚|: kissing_closed_eyes:|
 |😳|: flushed :|😌|: relieved:|😆|: satisfied:|
 |😁|: grin:|😉|: wink:|😜|: stuck_out_tongue_winking_eye:|
-#### 2 블럭인용
-> 블럭인용 1단계 ( >)
->> 블럭인용 2단계 ( >>)
+
 
