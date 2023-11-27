@@ -120,7 +120,7 @@
 # Ⅶ. 마크다운 Emoji 이모티콘
 출처 : <a href="https://inpa.tistory.com/entry/MarkDown-%F0%9F%93%9A-Emoji-%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" title="Inpa Dev"> Inpa Dev </a>
 
-기호( : : ) 사이에 이모티콘명을 넣으면 자동으로 인식
+기호( : : ) 사이에 이모티콘명을 넣으면 자동으로 인식</br>
 예) :rocket: ← : rocket :
 
 |_**이미지**_|_코드_|_**이미지**_|_코드_|_**이미지**_|_코드_|
